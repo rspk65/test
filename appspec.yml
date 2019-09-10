@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /webdem
-    destination: /datadir/
+    destination: /var/www/html
 hooks:
   BeforeInstall:
     - location: scripts/start_server
